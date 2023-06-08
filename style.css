@@ -1,3 +1,9 @@
+/* receteo general */
+.Html{
+    scroll-behavior: smooth;
+}
+
+
 * {
     margin: 0;
     padding: 0;
