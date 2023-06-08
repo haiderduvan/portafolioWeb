@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: content-box;
+}
+
+/* Aqui inicia la barra de navegacion */
+.container-nav {
+
+    background-color: rgb(60, 46, 255);
+    padding: .5rem;
+    box-shadow: 1px 1px 10px 1px black;
+    position: fixed;
+    left: 0%;
+    right: 0;
+
+}
+
+body {
+    background-color: beige;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    padding: .5rem;
+}
+
+a>h4 {
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a>h4:hover {
+    color: black;
+
+}
+
+/*Aqui inicia la sesion de Servicios */
+
+.Servicios {
+    padding: 5rem;
+
+}
+
+.imagen-Servicios {
+    width: 500px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.Servicios-img-title {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.parrafo-Servicios {
+    font-size: 1.5rem;
+    line-height: 32px;
+    text-align: justify;
+    padding-top: 5rem;
+
+}
+
+/* aqui inicia la sesion de habilidades */
+.habilidades {
+
+    padding: 5rem;
+}
+
+.habilidades-title {
+    margin-bottom: 3rem;
+}
+
+.misHabilidades {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.img-habilidades {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.row1>img {
+    width: 50px;
+    border-radius: 70%;
+    margin: .5rem;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.row2>img {
+    width: 50px;
+    border-radius: 70%;
+    margin: .5rem;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.row3>img {
+    width: 50px;
+    border-radius: 70%;
+    margin: .5rem;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+/* aqui inicia la sesion de portafolio */
+
+.img_proyect1 {
+
+    width: 400px;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 10px 1px blue;
+    border-radius: 1rem;
+}
+
+.mi_portafolio{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.parrafo-portafolio{
+    margin-bottom: 1rem;
+}
